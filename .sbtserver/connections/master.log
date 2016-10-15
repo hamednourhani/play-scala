@@ -1,0 +1,67 @@
+New log file opened at Sat Oct 15 12:29:15 GMT+03:30 2016 by 3884@ITSTARIR
+Taking next connection to: 9431
+New client attempting to connect on port: 9432-9431
+  Address = /10.189.29.63:9431
+This client on port 9432 has uuid 03a5cd1f-33c8-4e76-b9b1-d2b943def65e configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-03a5cd1f-33c8-4e76-b9b1-d2b943def65e
+Taking next connection to: 9431
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 9431
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 9431
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 9431
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 9431
+New client attempting to connect on port: 9823-9431
+  Address = /192.168.1.5:9431
+Handshake exception on socket: 9823
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 9431
+New client attempting to connect on port: 9824-9431
+  Address = /192.168.1.5:9431
+This client on port 9824 has uuid 2e51bf6f-859a-4d02-a659-8e8fd27a0e51 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-2e51bf6f-859a-4d02-a659-8e8fd27a0e51
+Taking next connection to: 9431
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 9431
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 9431
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 9431
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 9431
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 9431
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 9431
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 9431
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 9431
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 9431
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 9431
